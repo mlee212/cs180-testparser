@@ -1,0 +1,4 @@
+hello,world,k,m,s
+dre,you,serious,asdf
+we,are,so,friked
+why,am,i,so,dumb
