@@ -18,8 +18,7 @@ lineReader.on('line', function (line) {
     
     console.log('Line from file:', line);
     //match = splitter.exec(line)
-    data.push([...line.matchAll(splitter)])
-    
+
     while ((match = splitter.exec(line)) !== null) {
         console.log(`Found ${match[0]} start=${match.index} end=${splitter.lastIndex}.`);
         obj.push(match[0])
