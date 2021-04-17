@@ -10,7 +10,7 @@ const lineReader = require('readline').createInterface({
 });
 
 lineReader.on('line', function (line) {
-    var splitter = new RegExp(/((?:-)*\d+(?:[-.]\d+)*(?:[ :]\d+)*)|(\w+(?:[- \/]\w+)*(?:[.])*)/,'g')
+    var splitter = new RegExp(/[^,]+/,'g')
     
     
     //data.push({txt: match[2]})
